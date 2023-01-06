@@ -2,6 +2,7 @@
 pragma solidity ^0.8.4;
 
 import "@openzeppelin/contracts/access/Ownable.sol";
+import "hardhat/console.sol";
 
 interface IFakeNFTMarketplace {
     function getPrice() external view returns (uint256);
